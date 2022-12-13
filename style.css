@@ -1,0 +1,2257 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, "poppins";
+}
+
+.nav {
+
+    height: 90px !important;
+
+
+
+}
+
+/* nav cdpn */
+
+
+/* ended */
+.nav-item {
+
+    font-weight: 550;
+    margin: 0px 10px;
+
+}
+
+.nav-font {
+
+    font-family: sans-serif, "Aller";
+    font-size: 0.9rem !important;
+}
+
+.nav-font:hover {
+
+    color: rgb(4, 4, 156) !important;
+    transition: 0.5s;
+}
+
+/* Dropdown Button */
+.drop {
+
+    font-size: 16px;
+    font-weight: 550;
+    color: grey;
+    cursor: pointer;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 7px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 11px;
+    font-weight: 550;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+
+    color: rgb(255, 255, 255);
+
+    background-color: rgb(11, 21, 66) !important;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* baclground images */
+.bg {
+
+    border-radius: 60px 0px;
+    width: 100%;
+    background-image: url("img/bg.jpeg");
+
+    background-attachment: fixed;
+    height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.button-trn {
+
+
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgb(16, 27, 88);
+    color: #fff !important;
+    border: none;
+    font-weight: 550;
+    font-family: sans-serif, 'Aller' !important;
+    text-align: center !important;
+    
+
+
+
+    cursor: pointer;
+
+}
+.button-trn a{
+
+    color: #fff;
+    text-decoration: none;
+}
+.button-trn a:hover{
+
+    color: #fff;
+}
+
+
+.button-trn:hover {
+    background-color: transparent;
+    transition: 0.3s;
+     color: #fff;
+    border: 1px solid rgb(0, 255, 242) !important;
+
+}
+
+
+
+/* about section */
+
+.about-bg {
+
+    background-color: rgb(248, 248, 248);
+    height: fit-content;
+    margin: 140px 0px 0px 0px;
+}
+
+.about-txt h2 {
+
+    font-size: 2.4rem;
+    font-weight: 550;
+    font-family: sans-serif, 'Aller';
+    text-align: center;
+
+}
+
+.c h1 {
+
+    font-size: 3.9rem;
+    font-weight: 550;
+    color: #fff;
+}
+.view-more{
+
+    color: rgb(7, 9, 46);
+    text-decoration: none;
+    font-size: 1.1rem !important;
+}
+.view-more:hover{
+    color: aqua;
+  padding-right: 20px;
+  transition: 0.3s;
+}
+.about-txt p {
+
+    text-align: center;
+}
+
+.sub-pr {
+
+    margin: 90px 0px 0px 0px;
+    gap: 50px;
+}
+
+.courses {
+
+    border: 1px solid rgb(228, 228, 228);
+    text-align: center;
+    height: 300px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: .4s;
+
+
+}
+
+.courses:hover {
+
+    box-shadow: rgba(0, 0, 0, 0.24) 10px 30px 50px;
+    border: 2px solid rgb(170, 170, 170);
+    background-color: white;
+
+
+    transition: 0.2s;
+}
+
+.icon {
+
+    font-size: 3.5rem;
+    background-color: rgb(19, 27, 97);
+    border-radius: 50px;
+    color: #fff;
+    padding: 10px 0px 0px 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.img1 {
+
+    
+    height: 757px;
+    width: 790px;
+
+}
+
+.img2 {
+
+    background-image: url("img/pattern.png");
+
+    background-color: rgba(1,36,91);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    width: 790px;
+    height:100vh;
+
+}
+.fnt-last{
+
+    color: rgb(22, 18, 87);
+    font-size: 2rem;
+    font-family: sans-serif,'Aller';
+    
+    
+}
+
+
+.fnt-awsm{
+
+    color: #fff;
+    font-size: 2.7rem;
+    
+    position: relative;
+    top: 59px;
+    left: -75px;
+    border: 1px solid #fff;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+   
+    border-radius:50px ;
+    
+    
+}
+.fnt-awsm:hover{
+
+    color: rgb(8, 8, 44);
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+
+.img2-h4 {
+
+    color: #fff;
+    margin: 15px 10px 5px 30px;
+}
+
+.img2-p {
+
+    color: #fff;
+    margin: 5px 10px 3px 113px;
+
+
+
+}
+
+.main-cl {
+
+    background-color: #ddd;
+    height: 100vh;
+}
+
+.img2-h2 {
+
+
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+/* why choose us section */
+
+.skdp h4 {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 550;
+    font-family: sans-serif, 'aller';
+
+}
+
+.skdp-txt {
+
+    color: #fff;
+    font-size: 0.9rem;
+    color: #b9b8b8;
+    font-weight: 600;
+}
+
+.internship {
+
+    margin: 30px 0px -10px 0px;
+}
+
+.internship h4 {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 660;
+    margin: 10px 0px;
+}
+
+.int-txt {
+
+    color: #b9b8b8;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.po{
+
+    margin: 0px 0px 50px !important;
+}
+
+.po h4 {
+
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.po-txt {
+
+    color: #b9b8b8;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.icn {
+
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+
+
+    border: 1px solid #fff;
+    height: 80px;
+    width: 80px;
+    padding: 22px;
+    border-radius: 50px;
+    margin: 10px 0px 0px -10px;
+
+}
+
+.icn:hover {
+
+    color: #fff;
+    background-color: rgb(13, 16, 56);
+    transition: 0.3s;
+
+}
+
+.icn-3 {
+
+    color: #fff;
+    font-size: 2.5rem;
+    border: 1px solid #fff;
+    height: 80px;
+    width: 80px;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 10px 0px 0px -10px;
+}
+
+.icn-3:hover {
+
+    color: #fff;
+    background-color: rgb(13, 16, 56);
+}
+
+
+.followers {
+
+    background-image: url("img/images.jfif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.icon1 {
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin: 50px 80px;
+
+}
+
+
+.head {
+
+    color: #fff;
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 0.9rem;
+
+}
+
+.num {
+
+
+    font-size: 1.9rem;
+    color: #fff;
+    font-size: 2rem;
+    margin: 20px 0px 0px 0px;
+}
+
+.hding {
+
+    color: rgb(80, 80, 80);
+    text-align: center;
+    font-weight: 550;
+}
+
+.last-btn {
+
+    color: #fff;
+    background-color: rgb(23, 23, 95);
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-weight: 550;
+    font-family: sans-serif, "Aller";
+
+}
+
+.last-btn:hover {
+
+    color: aqua;
+    background-color: transparent;
+    border: 1px solid rgb(18, 23, 90);
+    transition: 0.2s;
+}
+
+.ftr-bg {
+
+    background-color: black;
+    width: 100%;
+    height: 400px;
+}
+
+hr.line {
+
+    border: 2px solid rgb(254, 255, 255);
+    background-color: #ddd;
+    height: 6px;
+}
+
+.phn {
+
+    cursor: pointer;
+    color: #b9b8b8;
+
+}
+
+.phn:hover {
+
+    color: rgb(0, 255, 234);
+    transition: 0.2s;
+}
+
+.txt-ftr {
+
+    color: #b9b8b8;
+    font-family: sans-serif, 'aller';
+    font-size: 1rem;
+}
+
+.social {
+
+    color: #b9b8b8;
+    font-size: 1.2rem;
+    margin: 10px 9px;
+}
+
+.social:hover {
+    color: aqua;
+    transition: 0.3s;
+}
+
+.font {
+
+    color: #b9b8b8;
+}
+
+.fnt {
+
+    color: #b9b8b8;
+}
+
+hr.text {
+    margin: 0px 0px 15px;
+    border: 3px solid rgb(7, 7, 56) !important;
+    background-color: rgb(8, 8, 59) !important;
+    opacity: 100%;
+    width: 120px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quries */
+
+@media only screen and (min-width:200px) and (max-width:250px) {
+
+.main-heading{
+
+    font-size: 3rem !important;
+}
+.button-trn{
+
+    width: 140px;
+    font-size: 0.9rem;
+}
+.res-head{
+
+    font-size: 2rem !important;
+    font-weight: 550;
+}
+    .sub-pr{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .res-h3{
+
+        font-size: 2rem !important;
+    }
+
+    .img{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .img1{
+
+        width: 100%;
+        height: 400px;
+        border: 5px solid #fff;
+    }
+    /* img 2 heading text evvery thing */
+    .img2{
+
+        width: 100%;
+        height: fit-content;
+        border: 5px solid #fff;
+    }
+    .h4-heading{
+
+        font-size: 1.2rem !important;
+        text-align: center ;
+
+    }
+    .rsp-subtxt{
+
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .rsp-inter{
+
+        display: flex;
+        flex-direction: column;
+    }
+    /* ended */
+    .pars{
+           display: flex;
+        flex-direction: column;
+        
+    }
+    /* ftr */
+    .followers{
+
+        height: fit-content;
+    }
+    .par{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .ftr-bg{
+
+        height: fit-content;
+        width: 100%;
+    }
+    .cnt{
+
+        position: relative;
+        left: -84px;
+    }
+    .dt{
+
+        position: relative;
+        left: -95px;
+    }
+    .rs-i{
+
+        position: relative;
+        left: -90px;
+    }
+    .cn{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rs-ftr-txt{
+
+        font-size: 1.2rem !important;
+        position: relative;
+        left: -90px;
+        
+    }
+    
+    
+    
+    .courses{
+
+        width: 100%;
+        height: fit-content;
+    }
+    .res{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .rs-txt{
+
+        display: flex;
+        flex-direction: column;
+    }
+    
+   .fnt{
+    
+    font-size: 0.7rem !important;
+   }
+   .rse-txt{
+
+    text-align: center !important;
+   }
+   /* address section ftr */
+   .rs-add{
+
+
+    font-size: 0.9rem !important;
+    position: relative;
+    left: -80px;
+   }
+   .rs-ftr-head{
+     text-align: left !important;
+     margin-left: -30px;
+   
+   }
+   /* ended */
+}
+/* resgister button */
+.bt-rs{
+
+    font-size: 0.8rem !important;
+    width: 150px;
+}
+/* 200px ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 250 to 350 */
+@media only screen and (min-width:250px) and (max-width:300px) {
+
+    .main-heading{
+    
+        font-size: 3rem !important;
+    }
+    .button-trn{
+    
+        width: 140px;
+        font-size: 0.9rem;
+    }
+    .res-head{
+    
+        font-size: 2rem !important;
+        font-weight: 550;
+    }
+        .sub-pr{
+    
+            display: flex;
+            flex-direction: column;
+        }
+        .res-h3{
+    
+            font-size: 2rem !important;
+        }
+    
+        .img{
+    
+            display: flex;
+            flex-direction: column;
+        }
+        .img1{
+    
+            width: 100%;
+            height: 400px;
+            border: 5px solid #fff;
+        }
+        /* img 2 heading text evvery thing */
+        .img2{
+    
+            width: 100%;
+            height: fit-content;
+            border: 5px solid #fff;
+        }
+        .h4-heading{
+    
+            font-size: 1.2rem !important;
+            text-align: center ;
+    
+        }
+        .rsp-subtxt{
+    
+            font-size: 0.8rem;
+            text-align: center;
+        }
+        .rsp-inter{
+    
+            display: flex;
+            flex-direction: column;
+        }
+        /* ended */
+        .pars{
+               display: flex;
+            flex-direction: column;
+            
+        }
+        /* ftr */
+        .followers{
+    
+            height: fit-content;
+        }
+        .par{
+    
+            display: flex;
+            flex-direction: column;
+        }
+        .ftr-bg{
+    
+            height: fit-content;
+            width: 100%;
+        }
+        .cnt{
+    
+            position: relative;
+            left: -84px;
+        }
+        .dt{
+    
+            position: relative;
+            left: -95px;
+        }
+        .rs-i{
+    
+            position: relative;
+            left: -90px;
+        }
+        .cn{
+    
+            display: flex;
+            flex-direction: column;
+    
+        }
+        .rs-ftr-txt{
+    
+            font-size: 1.2rem !important;
+            position: relative;
+            left: -90px;
+            
+        }
+        
+        
+        
+        .courses{
+    
+            width: 100%;
+            height: fit-content;
+        }
+        .res{
+    
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .rs-txt{
+    
+            display: flex;
+            flex-direction: column;
+        }
+        
+       .fnt{
+        
+        font-size: 0.7rem !important;
+       }
+       .rse-txt{
+    
+        text-align: center !important;
+       }
+       /* address section ftr */
+       .rs-add{
+    
+    
+        font-size: 0.9rem !important;
+        position: relative;
+        left: -80px;
+       }
+       .rs-ftr-head{
+         text-align: left !important;
+         margin-left: -30px;
+       
+       }
+       /* ended */
+    }
+    /* resgister button */
+    .bt-rs{
+    
+        font-size: 0.8rem !important;
+        width: 150px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 300 t0 350 */
+
+    @media only screen and (min-width:300px) and (max-width:400px) {
+
+        .main-heading{
+        
+            font-size: 3rem !important;
+        }
+        .button-trn{
+        
+            width: 140px;
+            font-size: 0.9rem;
+        }
+        .res-head{
+        
+            font-size: 2rem !important;
+            font-weight: 550;
+        }
+            .sub-pr{
+        
+                display: flex;
+                flex-direction: column;
+            }
+            .res-h3{
+        
+                font-size: 2rem !important;
+            }
+        
+            .img{
+        
+                display: flex;
+                flex-direction: column;
+            }
+            .img1{
+        
+                width: 100%;
+                height: 400px;
+                border: 5px solid #fff;
+            }
+            /* img 2 heading text evvery thing */
+            .img2{
+        
+                width: 100%;
+                height: fit-content;
+                border: 5px solid #fff;
+            }
+            .h4-heading{
+        
+                font-size: 1.2rem !important;
+                text-align: center ;
+        
+            }
+            .rsp-subtxt{
+        
+                font-size: 0.8rem;
+                text-align: center;
+            }
+            .rsp-inter{
+        
+                display: flex;
+                flex-direction: column;
+            }
+            /* ended */
+            .pars{
+                   display: flex;
+                flex-direction: column;
+                
+            }
+            /* ftr */
+            .followers{
+        
+                height: fit-content;
+            }
+            .par{
+        
+                display: flex;
+                flex-direction: column;
+            }
+            .ftr-bg{
+        
+                height: fit-content;
+                width: 100%;
+            }
+            .cnt{
+        
+                position: relative;
+                left: -84px;
+            }
+            .dt{
+        
+                position: relative;
+                left: -95px;
+            }
+            .rs-i{
+        
+                position: relative;
+                left: -90px;
+            }
+            .cn{
+        
+                display: flex;
+                flex-direction: column;
+        
+            }
+            .rs-ftr-txt{
+        
+                font-size: 1.2rem !important;
+                position: relative;
+                left: -90px;
+                
+            }
+            
+            
+            
+            .courses{
+        
+                width: 100%;
+                height: fit-content;
+            }
+            .res{
+        
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            .rs-txt{
+        
+                display: flex;
+                flex-direction: column;
+            }
+            
+           .fnt{
+            
+            font-size: 0.7rem !important;
+           }
+           .rse-txt{
+        
+            text-align: center !important;
+           }
+           /* address section ftr */
+           .rs-add{
+        
+        
+            font-size: 0.9rem !important;
+            position: relative;
+            left: -80px;
+           }
+           .rs-ftr-head{
+             text-align: left !important;
+             margin-left: -30px;
+           
+           }
+           /* ended */
+        }
+        /* resgister button */
+        .bt-rs{
+        
+            font-size: 0.8rem !important;
+            width: 150px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media only screen and (min-width:400px) and (max-width:500px) {
+
+            .main-heading{
+            
+                font-size: 3rem !important;
+            }
+            .button-trn{
+            
+                width: 140px;
+                font-size: 0.9rem;
+            }
+            .res-head{
+            
+                font-size: 2rem !important;
+                font-weight: 550;
+            }
+                .sub-pr{
+            
+                    display: flex;
+                    flex-direction: column;
+                }
+                .res-h3{
+            
+                    font-size: 2rem !important;
+                }
+            
+                .img{
+            
+                    display: flex;
+                    flex-direction: column;
+                }
+                .img1{
+            
+                    width: 100%;
+                    height: 400px;
+                    border: 5px solid #fff;
+                }
+                /* img 2 heading text evvery thing */
+                .img2{
+            
+                    width: 100%;
+                    height: fit-content;
+                    border: 5px solid #fff;
+                }
+                .h4-heading{
+            
+                    font-size: 1.2rem !important;
+                    text-align: center ;
+            
+                }
+                .rsp-subtxt{
+            
+                    font-size: 0.8rem;
+                    text-align: center;
+                }
+                .rsp-inter{
+            
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* ended */
+                .pars{
+                       display: flex;
+                    flex-direction: column;
+                    
+                }
+                /* ftr */
+                .followers{
+            
+                    height: fit-content;
+                }
+                .par{
+            
+                    display: flex;
+                    flex-direction: column;
+                }
+                .ftr-bg{
+            
+                    height: fit-content;
+                    width: 100%;
+                }
+                .cnt{
+            
+                    position: relative;
+                    left: -84px;
+                }
+                .dt{
+            
+                    position: relative;
+                    left: -95px;
+                }
+                .rs-i{
+            
+                    position: relative;
+                    left: -90px;
+                }
+                .cn{
+            
+                    display: flex;
+                    flex-direction: column;
+            
+                }
+                .rs-ftr-txt{
+            
+                    font-size: 1.2rem !important;
+                    position: relative;
+                    left: -90px;
+                    
+                }
+                
+                
+                
+                .courses{
+            
+                    width: 100%;
+                    height: fit-content;
+                }
+                .res{
+            
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+                .rs-txt{
+            
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+               .fnt{
+                
+                font-size: 0.7rem !important;
+               }
+               .rse-txt{
+            
+                text-align: center !important;
+               }
+               /* address section ftr */
+               .rs-add{
+            
+            
+                font-size: 0.9rem !important;
+                position: relative;
+                left: -80px;
+               }
+               .rs-ftr-head{
+                 text-align: left !important;
+                 margin-left: -30px;
+               
+               }
+               /* ended */
+            }
+            /* resgister button */
+            .bt-rs{
+            
+                font-size: 0.8rem !important;
+                width: 150px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media only screen and (min-width:500px) and (max-width:600px) {
+
+                .main-heading{
+                
+                    font-size: 3rem !important;
+                }
+                .button-trn{
+                
+                    width: 140px;
+                    font-size: 0.9rem;
+                }
+                .res-head{
+                
+                    font-size: 2rem !important;
+                    font-weight: 550;
+                }
+                    .sub-pr{
+                
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .res-h3{
+                
+                        font-size: 2rem !important;
+                    }
+                
+                    .img{
+                
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .img1{
+                
+                        width: 100%;
+                        height: 400px;
+                        border: 5px solid #fff;
+                    }
+                    /* img 2 heading text evvery thing */
+                    .img2{
+                
+                        width: 100%;
+                        height: fit-content;
+                        border: 5px solid #fff;
+                    }
+                    .h4-heading{
+                
+                        font-size: 1.2rem !important;
+                        text-align: center ;
+                
+                    }
+                    .rsp-subtxt{
+                
+                        font-size: 0.8rem;
+                        text-align: center;
+                    }
+                    .rsp-inter{
+                
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    /* ended */
+                    .pars{
+                           display: flex;
+                        flex-direction: column;
+                        
+                    }
+                    /* ftr */
+                    .followers{
+                
+                        height: fit-content;
+                    }
+                    .par{
+                
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .ftr-bg{
+                
+                        height: fit-content;
+                        width: 100%;
+                    }
+                    .cnt{
+                
+                        position: relative;
+                        left: -84px;
+                    }
+                    .dt{
+                
+                        position: relative;
+                        left: -95px;
+                    }
+                    .rs-i{
+                
+                        position: relative;
+                        left: -90px;
+                    }
+                    .cn{
+                
+                        display: flex;
+                        flex-direction: column;
+                
+                    }
+                    .rs-ftr-txt{
+                
+                        font-size: 1.2rem !important;
+                        position: relative;
+                        left: -90px;
+                        
+                    }
+                    
+                    
+                    
+                    .courses{
+                
+                        width: 100%;
+                        height: fit-content;
+                    }
+                    .res{
+                
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                    }
+                    .rs-txt{
+                
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                   .fnt{
+                    
+                    font-size: 0.7rem !important;
+                   }
+                   .rse-txt{
+                
+                    text-align: center !important;
+                   }
+                   /* address section ftr */
+                   .rs-add{
+                
+                
+                    font-size: 0.9rem !important;
+                    position: relative;
+                    left: -80px;
+                   }
+                   .rs-ftr-head{
+                     text-align: left !important;
+                     margin-left: -30px;
+                   
+                   }
+                   /* ended */
+                }
+                /* resgister button */
+                .bt-rs{
+                
+                    font-size: 0.8rem !important;
+                    width: 150px;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                @media only screen and (min-width:700px) and (max-width:800px) {
+
+                    .main-heading{
+                    
+                        font-size: 3rem !important;
+                    }
+                    .button-trn{
+                    
+                        width: 140px;
+                        font-size: 0.9rem;
+                    }
+                    .res-head{
+                    
+                        font-size: 2rem !important;
+                        font-weight: 550;
+                    }
+                        .sub-pr{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .res-h3{
+                    
+                            font-size: 2rem !important;
+                        }
+                    
+                        .img{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .img1{
+                    
+                            width: 100%;
+                            height: 400px;
+                            border: 5px solid #fff;
+                        }
+                        /* img 2 heading text evvery thing */
+                        .img2{
+                    
+                            width: 100%;
+                            height: fit-content;
+                            border: 5px solid #fff;
+                        }
+                        .h4-heading{
+                    
+                            font-size: 1.2rem !important;
+                            text-align: center ;
+                    
+                        }
+                        .rsp-subtxt{
+                    
+                            font-size: 0.8rem;
+                            text-align: center;
+                        }
+                        .rsp-inter{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        /* ended */
+                        .pars{
+                               display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        /* ftr */
+                        .followers{
+                    
+                            height: fit-content;
+                        }
+                        .par{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .ftr-bg{
+                    
+                            height: fit-content;
+                            width: 100%;
+                        }
+                        .cnt{
+                    
+                            position: relative;
+                            left: -84px;
+                        }
+                        .dt{
+                    
+                            position: relative;
+                            left: -95px;
+                        }
+                        .rs-i{
+                    
+                            position: relative;
+                            left: -90px;
+                        }
+                        .cn{
+                    
+                            display: flex;
+                            flex-direction: column;
+                    
+                        }
+                        .rs-ftr-txt{
+                    
+                            font-size: 1.2rem !important;
+                            position: relative;
+                            left: -90px;
+                            
+                        }
+                        
+                        
+                        
+                        .courses{
+                    
+                            width: 100%;
+                            height: fit-content;
+                        }
+                        .res{
+                    
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
+                        .rs-txt{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                       .fnt{
+                        
+                        font-size: 0.7rem !important;
+                       }
+                       .rse-txt{
+                    
+                        text-align: center !important;
+                       }
+                       /* address section ftr */
+                       .rs-add{
+                    
+                    
+                        font-size: 0.9rem !important;
+                        position: relative;
+                        left: -80px;
+                       }
+                       .rs-ftr-head{
+                         text-align: left !important;
+                         margin-left: -30px;
+                       
+                       }
+                       /* ended */
+                    }
+                    /* resgister button */
+                    .bt-rs{
+                    
+                        font-size: 0.8rem !important;
+                        width: 150px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
+                @media only screen and (min-width:800px) and (max-width:900px) {
+
+                    .main-heading{
+                    
+                        font-size: 3rem !important;
+                    }
+                    .button-trn{
+                    
+                        width: 140px;
+                        font-size: 0.9rem;
+                    }
+                    .res-head{
+                    
+                        font-size: 2rem !important;
+                        font-weight: 550;
+                    }
+                        .sub-pr{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .res-h3{
+                    
+                            font-size: 2rem !important;
+                        }
+                    
+                        .img{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .img1{
+                    
+                            width: 100%;
+                            height: 400px;
+                            border: 5px solid #fff;
+                        }
+                        /* img 2 heading text evvery thing */
+                        .img2{
+                    
+                            width: 100%;
+                            height: fit-content;
+                            border: 5px solid #fff;
+                        }
+                        .h4-heading{
+                    
+                            font-size: 1.2rem !important;
+                            text-align: center ;
+                    
+                        }
+                        .rsp-subtxt{
+                    
+                            font-size: 0.8rem;
+                            text-align: center;
+                        }
+                        .rsp-inter{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        /* ended */
+                        .pars{
+                               display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        /* ftr */
+                        .followers{
+                    
+                            height: fit-content;
+                        }
+                        .par{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .ftr-bg{
+                    
+                            height: fit-content;
+                            width: 100%;
+                        }
+                        .cnt{
+                    
+                            position: relative;
+                            left: -84px;
+                        }
+                        .dt{
+                    
+                            position: relative;
+                            left: -95px;
+                        }
+                        .rs-i{
+                    
+                            position: relative;
+                            left: -90px;
+                        }
+                        .cn{
+                    
+                            display: flex;
+                            flex-direction: column;
+                    
+                        }
+                        .rs-ftr-txt{
+                    
+                            font-size: 1.2rem !important;
+                            position: relative;
+                            left: -90px;
+                            
+                        }
+                        
+                        
+                        
+                        .courses{
+                    
+                            width: 100%;
+                            height: fit-content;
+                        }
+                        .res{
+                    
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
+                        .rs-txt{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                       .fnt{
+                        
+                        font-size: 0.7rem !important;
+                       }
+                       .rse-txt{
+                    
+                        text-align: center !important;
+                       }
+                       /* address section ftr */
+                       .rs-add{
+                    
+                    
+                        font-size: 0.9rem !important;
+                        position: relative;
+                        left: -80px;
+                       }
+                       .rs-ftr-head{
+                         text-align: left !important;
+                         margin-left: -30px;
+                       
+                       }
+                       /* ended */
+                    }
+                    /* resgister button */
+                    .bt-rs{
+                    
+                        font-size: 0.8rem !important;
+                        width: 150px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                @media only screen and (min-width:650px) and (max-width:700px) {
+
+                    .main-heading{
+                    
+                        font-size: 3rem !important;
+                    }
+                    .button-trn{
+                    
+                        width: 140px;
+                        font-size: 0.9rem;
+                    }
+                    .res-head{
+                    
+                        font-size: 2rem !important;
+                        font-weight: 550;
+                    }
+                        .sub-pr{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .res-h3{
+                    
+                            font-size: 2rem !important;
+                        }
+                    
+                        .img{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .img1{
+                    
+                            width: 100%;
+                            height: 400px;
+                            border: 5px solid #fff;
+                        }
+                        /* img 2 heading text evvery thing */
+                        .img2{
+                    
+                            width: 100%;
+                            height: fit-content;
+                            border: 5px solid #fff;
+                        }
+                        .h4-heading{
+                    
+                            font-size: 1.2rem !important;
+                            text-align: center ;
+                    
+                        }
+                        .rsp-subtxt{
+                    
+                            font-size: 0.8rem;
+                            text-align: center;
+                        }
+                        .rsp-inter{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        /* ended */
+                        .pars{
+                               display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        /* ftr */
+                        .followers{
+                    
+                            height: fit-content;
+                        }
+                        .par{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .ftr-bg{
+                    
+                            height: fit-content;
+                            width: 100%;
+                        }
+                        .cnt{
+                    
+                            position: relative;
+                            left: -84px;
+                        }
+                        .dt{
+                    
+                            position: relative;
+                            left: -95px;
+                        }
+                        .rs-i{
+                    
+                            position: relative;
+                            left: -90px;
+                        }
+                        .cn{
+                    
+                            display: flex;
+                            flex-direction: column;
+                    
+                        }
+                        .rs-ftr-txt{
+                    
+                            font-size: 1.2rem !important;
+                            position: relative;
+                            left: -90px;
+                            
+                        }
+                        
+                        
+                        
+                        .courses{
+                    
+                            width: 100%;
+                            height: fit-content;
+                        }
+                        .res{
+                    
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
+                        .rs-txt{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                       .fnt{
+                        
+                        font-size: 0.7rem !important;
+                       }
+                       .rse-txt{
+                    
+                        text-align: center !important;
+                       }
+                       /* address section ftr */
+                       .rs-add{
+                    
+                    
+                        font-size: 0.9rem !important;
+                        position: relative;
+                        left: -80px;
+                       }
+                       .rs-ftr-head{
+                         text-align: left !important;
+                         margin-left: -30px;
+                       
+                       }
+                       /* ended */
+                    }
+                    /* resgister button */
+                    .bt-rs{
+                    
+                        font-size: 0.8rem !important;
+                        width: 150px;
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+                @media only screen and (min-width:550px) and (max-width:600px) {
+
+                    .main-heading{
+                    
+                        font-size: 3rem !important;
+                    }
+                    .button-trn{
+                    
+                        width: 140px;
+                        font-size: 0.9rem;
+                    }
+                    .res-head{
+                    
+                        font-size: 2rem !important;
+                        font-weight: 550;
+                    }
+                        .sub-pr{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .res-h3{
+                    
+                            font-size: 2rem !important;
+                        }
+                    
+                        .img{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .img1{
+                    
+                            width: 100%;
+                            height: 400px;
+                            border: 5px solid #fff;
+                        }
+                        /* img 2 heading text evvery thing */
+                        .img2{
+                    
+                            width: 100%;
+                            height: fit-content;
+                            border: 5px solid #fff;
+                        }
+                        .h4-heading{
+                    
+                            font-size: 1.2rem !important;
+                            text-align: center ;
+                    
+                        }
+                        .rsp-subtxt{
+                    
+                            font-size: 0.8rem;
+                            text-align: center;
+                        }
+                        .rsp-inter{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        /* ended */
+                        .pars{
+                               display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        /* ftr */
+                        .followers{
+                    
+                            height: fit-content;
+                        }
+                        .par{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        .ftr-bg{
+                    
+                            height: fit-content;
+                            width: 100%;
+                        }
+                        .cnt{
+                    
+                            position: relative;
+                            left: -84px;
+                        }
+                        .dt{
+                    
+                            position: relative;
+                            left: -95px;
+                        }
+                        .rs-i{
+                    
+                            position: relative;
+                            left: -90px;
+                        }
+                        .cn{
+                    
+                            display: flex;
+                            flex-direction: column;
+                    
+                        }
+                        .rs-ftr-txt{
+                    
+                            font-size: 1.2rem !important;
+                            position: relative;
+                            left: -90px;
+                            
+                        }
+                        
+                        
+                        
+                        .courses{
+                    
+                            width: 100%;
+                            height: fit-content;
+                        }
+                        .res{
+                    
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                        }
+                        .rs-txt{
+                    
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                       .fnt{
+                        
+                        font-size: 0.7rem !important;
+                       }
+                       .rse-txt{
+                    
+                        text-align: center !important;
+                       }
+                       /* address section ftr */
+                       .rs-add{
+                    
+                    
+                        font-size: 0.9rem !important;
+                        position: relative;
+                        left: -80px;
+                       }
+                       .rs-ftr-head{
+                         text-align: left !important;
+                         margin-left: -30px;
+                       
+                       }
+                       /* ended */
+                    }
+                    /* resgister button */
+                    .bt-rs{
+                    
+                        font-size: 0.8rem !important;
+                        width: 150px;
+                    }
